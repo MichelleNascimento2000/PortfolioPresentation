@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&display=swap");
+
+:root {
+    --project-div-width: 500px;
+    --project-div-title-height: 60px;
+    --project-div-image-height: 250px;
+    --project-div-description-height: 400px;
+
+    --project-div-border-radius-size: 42px;
+    --project-div-border: 5px solid #000000;
+    --project-div-color: linear-gradient(180deg, #8748ae 0%, #d2a0d6 100%);
+}
+
+.my-title {
+    text-shadow: 5px 5px 2px #ac99be;
+    color: #000000;
+    font-size: 90px;
+    font-family: "Alkalami", serif;
+    margin-top: 20px;
+    margin-bottom: -40px;
+}
+
+.my-description {
+    text-shadow: 1px 1px 1px #da95a7;
+    color: #342e42;
+    font-size: 20px;
+    font-family: "Alkalami", serif;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+.my-picture {
+    width: 300px;
+    height: 300px;
+}
+
+.project-table {
+    width: 100%;
+}
+
+.project-card-title {
+    box-sizing: border-box;
+
+    position: relative;
+    width: var(--project-div-width);
+    height: var(--project-div-title-height);
+
+    background: var(--project-div-color);
+    border-top-left-radius: var(--project-div-border-radius-size);
+    border-top-right-radius: var(--project-div-border-radius-size);
+}
+
+.project-title {
+    text-align: center;
+
+    padding-top: 1%;
+
+    text-shadow: 5px 5px 2px #be8aa8;
+    color: #7c1548;
+    font-size: 40px;
+    font-family: "Alkalami", serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-description {
+    text-align: center;
+
+    padding-top: 3%;
+    padding-left: 2px;
+    padding-right: 2px;
+
+    margin-bottom: 10px;
+
+    text-shadow: 1px 1px 5px #ffffff;
+
+    color: #171869;
+    font-size: 17px;
+    font-family: "Alkalami", serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-card-image {
+    box-sizing: border-box;
+
+    position: relative;
+    width: var(--project-div-width);
+    height: var(--project-div-image-height);
+}
+
+.project-card-description {
+    box-sizing: border-box;
+
+    position: relative;
+    width: var(--project-div-width);
+    height: var(--project-div-description-height);
+
+    background: var(--project-div-color);
+    border-bottom-left-radius: var(--project-div-border-radius-size);
+    border-bottom-right-radius: var(--project-div-border-radius-size);
+}
+
+.project-image {
+    width: 500px;
+    height: 250px;
+
+    object-fit: fill;
+}
+
+.project-link-badge {
+    width: 100px;
+
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.project-link {
+    vertical-align: middle;
+    text-align: center;
+    padding: 0px 70px;
+}
+
+.nav-options {
+    background-color: rgb(53, 19, 77);
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-options a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: "Alkalami", serif;
+}
+
+.nav-options a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.qualifications{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Alkalami", serif;
+    line-height: 30px;
+    text-shadow: 1px 1px 15px #1a41cc;
+    color: #262629;
+    font-size: 25px;
+}
