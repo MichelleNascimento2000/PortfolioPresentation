@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Alkalami&display=swap");
 
 :root {
-    --project-div-width: 500px;
-    --project-div-title-height: 60px;
-    --project-div-image-height: 250px;
-    --project-div-description-height: 400px;
+    --project-div-width: 400px;
+    --project-div-title-height: 150px;
+    --project-div-image-height: 200px;
+    --project-div-description-height: 500px;
 
     --project-div-border-radius-size: 42px;
     --project-div-border: 5px solid #000000;
@@ -58,20 +58,25 @@
 
     text-shadow: 5px 5px 2px #be8aa8;
     color: #7c1548;
-    font-size: 40px;
+    font-size: 35px;
     font-family: "Alkalami", serif;
 
     display: flex;
     justify-content: center;
     align-items: center;
+    align-content: center;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .project-description {
     text-align: center;
 
     padding-top: 3%;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
 
     margin-bottom: 10px;
 
@@ -107,8 +112,8 @@
 }
 
 .project-image {
-    width: 500px;
-    height: 250px;
+    width: var(--project-div-width);
+    height: var(--project-div-image-height);
 
     object-fit: fill;
 }
@@ -123,7 +128,7 @@
 .project-link {
     vertical-align: middle;
     text-align: center;
-    padding: 0px 70px;
+    padding: 0px 40px;
 }
 
 .nav-options {
